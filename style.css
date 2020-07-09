@@ -1,0 +1,136 @@
+* {
+  font-family: Ribeye;
+}
+body {
+  background-image: url("/img/Sports.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1em;
+}
+
+img {
+  width: 50%;
+}
+
+.begin:hover {
+  cursor: pointer;
+  border: black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 49.4%;
+  margin-left: 25%;
+  background-color: black;
+  color: white;
+}
+
+.answers {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.correct {
+  cursor: pointer;
+  border: black solid;
+  border-radius: 50px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong {
+  cursor: pointer;
+  border: black solid;
+  border-radius: 50px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart:hover {
+  cursor: pointer;
+  border: black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 49.4%;
+  margin-left: 25%;
+  background-color: black;
+  color: white;
+}
+
+.winner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+  background-color: #111;
+  text-align: center;
+  z-index: 10;
+  display: none;
+  transition: all 250ms ease;
+  color: white;
+  cursor: pointer;
+}
+
+.average {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+  background-color: #111;
+  text-align: center;
+  z-index: 10;
+  display: none;
+  transition: all 250ms ease;
+  color: white;
+  cursor: pointer;
+}
+
+.help {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+  background-color: #111;
+  text-align: center;
+  z-index: 10;
+  display: none;
+  transition: all 250ms ease;
+  color: white;
+  cursor: pointer;
+}
+
+.ask {
+  display: none;
+}
+
+/* .finish {
+  display: none;
+} */
+
+.questions {
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+}

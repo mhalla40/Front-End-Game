@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="directions">
+      <h1>SPORTS TRIVIA</h1>
+      <h2>
+        Are you sure that you know your sports trivia? If so, come on in and
+        click on Begin to get started!
+      </h2>
+      <h2>Good Luck!!!</h2>
+      <div class="begin">Begin</div>
+    </div>
+
+    <div class="questions">
+      <div class="ask">
+        <img src="img/Ali.jpg" alt="Ali" />
+
+        <h3>Question #1</h3>
+        <h4>Ali defeated Sonny Liston in which round?</h4>
+        <div class="answers">
+          <div class="wrong">10</div>
+          <div class="wrong">3</div>
+          <div class="correct">1</div>
+          <div class="wrong">8</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="img/Jordan.jpg" alt="Jordan" />
+
+        <h3>Question #2</h3>
+        <h4>What was college was Michael Jordan's dream school?</h4>
+        <div class="answers">
+          <div class="correct">UCLA</div>
+          <div class="wrong">Stanford</div>
+          <div class="wrong">North Carolina State</div>
+          <div class="wrong">North Carolina</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="img/Deion Sanders .jpg" alt="Deion Sanders" />
+
+        <h3>Question #3</h3>
+        <h4>How many Super Bowls did Deion Sanders win?</h4>
+        <div class="answers">
+          <div class="wrong">4</div>
+          <div class="wrong">3</div>
+          <div class="correct">2</div>
+          <div class="wrong">1</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/Heisman.jpeg" alt="Heisman" />
+
+        <h3>Question #4</h3>
+        <h4>Who was the oldest player to win the Heisman?</h4>
+        <div class="answers">
+          <div class="wrong">Tim Tebow</div>
+          <div class="wrong">Cam Newton</div>
+          <div class="correct">Chris Weinke</div>
+          <div class="wrong">Charlie Ward</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/golf-drive.jpg" alt="Golf" />
+
+        <h3>Question #5</h3>
+        <h4>
+          What golfer led the PGA Tour in driving distance for eight years
+          during the 90s?
+        </h4>
+        <div class="answers">
+          <div class="wrong">Tiger Woods</div>
+          <div class="wrong">Vijay Singh</div>
+          <div class="wrong">Phil Mickelson</div>
+          <div class="correct">John Daly</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/Favre_Brett1_Falcons.jpg" alt="Brett Favre" />
+
+        <h3>Question #6</h3>
+        <h4>Who caught Brett Favre's first regular season pass?</h4>
+        <div class="answers">
+          <div class="correct">Brett Favre</div>
+          <div class="wrong">Andre Rison</div>
+          <div class="wrong">Jerry Rice</div>
+          <div class="wrong">Randy Moss</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/Serena Williams.jpeg" alt="Serena Williams" />
+
+        <h3>Question #7</h3>
+        <h4>
+          When did Serena Williams win her first major tennis championship?
+        </h4>
+        <div class="answers">
+          <div class="wrong">2002</div>
+          <div class="correct">1999</div>
+          <div class="wrong">2006</div>
+          <div class="wrong">1998</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/super_bowl.jpg" alt="Super Bowl" />
+
+        <h3>Question #8</h3>
+        <h4>How many current NFL teams have never played in a Super Bowl?</h4>
+        <div class="answers">
+          <div class="wrong">3</div>
+          <div class="wrong">5</div>
+          <div class="correct">4</div>
+          <div class="wrong">2</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/Tiger-Woods.jpg" alt="Tiger Woods" />
+
+        <h3>Question #9</h3>
+        <h4>What year did Tiger Woods win his first Masters Tournament?</h4>
+        <div class="answers">
+          <div class="wrong">2001</div>
+          <div class="correct">1997</div>
+          <div class="wrong">1999</div>
+          <div class="wrong">2002</div>
+        </div>
+      </div>
+
+      <div class="ask">
+        <img src="/img/Larry Bird.jpg" alt="Larry Bird" />
+
+        <h3>Question #10</h3>
+        <h4>
+          Hall of Fame player Larry Bird won NBA Coach of the Year while
+          coaching which team?
+        </h4>
+        <div class="answers">
+          <div class="wrong">Chicago Bulls</div>
+          <div class="wrong">LA Lakers</div>
+          <div class="wrong">Boston Celtics</div>
+          <div class="correct">Indiana Pacers</div>
+        </div>
+      </div>
+    </div>
+    <section class="winner">
+      <h1 class="title--xl-large">Winner!</h1>
+      <p>Great Job! You know your stuff!</p>
+      <button type="submit" onClick="refreshPage()">Try Again</button>
+    </section>
+    <section class="average">
+      <h1 class="title--xl-large">Winner!</h1>
+      <p>How does it feel to be Average!</p>
+      <button type="submit" onClick="refreshPage()">Try Again</button>
+    </section>
+    <section class="help">
+      <h1 class="title--xl-large">Lost!</h1>
+      <p>Do you know anything about sports!?!</p>
+      <button type="submit" onClick="refreshPage()">Try Again</button>
+    </section>
+
+    <div class="finish">
+      <div class="results"></div>
+      <h2 class="score">00</h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
