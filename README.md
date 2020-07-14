@@ -1,10 +1,11 @@
 # Front-End-Game
 
-//This is Trivia Game on Sports.
+This is Trivia Game on Sports.
 
-//Getting Started
+## Getting Started
 
 Go to the website and click Begin to start. Answer questions to test your knowledge in Sports.
 
-//Requirements
+### Requirements
+
 Need a computer with a good internet connection.
